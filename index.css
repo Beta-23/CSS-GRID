@@ -2,7 +2,7 @@
   max-width: 1200px; 
   min-width: 650px;  
   margin: 0 auto; 
-  padding: 50px;
+  padding: 43px;
 }
 
 .chart { 
@@ -20,13 +20,13 @@
 
 .chart-period { 
   color:  #fff;  
-  background-color:  #708090 !important;  
+  background-color:  #0000FF !important;  
   border-bottom: 2px solid #000;  
   grid-template-columns: 50px repeat(12, 1fr);
 
 }
 
-.chart-period span {
+.chart-period > span {
   text-align: center;  
   font-size: 13px;  
   align-self: center;  
@@ -42,6 +42,6 @@
   grid-template-columns: 50px repeat(12, 1fr);
 }
 
-.chart-lines span {  
-  display: block;  border-right: 1px solid rgba(0, 0, 0, 0.3);
+.chart-lines > span {  
+  display: center;  border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
