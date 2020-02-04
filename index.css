@@ -4,3 +4,10 @@
   margin: 0 auto; 
   padding: 50px;
 }
+
+.chart { 
+  display: grid;  
+  border: 2px solid #000;  
+  position: relative;  
+  overflow: hidden; 
+}
