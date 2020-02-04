@@ -11,3 +11,9 @@
   position: relative;  
   overflow: hidden; 
 }
+
+.chart-row {  
+  display: grid; 
+  grid-template-columns: 50px 1fr; 
+  background-color: #DCDCDC;
+}
