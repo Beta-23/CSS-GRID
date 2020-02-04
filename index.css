@@ -66,48 +66,63 @@
         grid-gap: 10px 0;
         border-bottom: 1px solid  #000;
   }
-  li {
-    font-weight: 450;
-        text-align: left;
-        font-size: 15px;
-        min-height: 15px;
-        background-color: #708090;
-        padding: 5px 15px;
-        color: #fff;
-        overflow: hidden;
-        position: relative;
-        cursor: pointer;
-        border-radius: 15px;
-  }
-  ul .chart-li-one {
-    grid-column: 1/2; 
-    background-color:#588BAE;
-  }
-  ul .chart-li-two-a {
-    grid-column: 2/2; 
-    background-color: #0080FF;
-  }
-  ul .chart-li-two-b {
-    grid-column: 2/4; 
-    background-color:#4682B4;
-  } 
-  ul .chart-li-three {
-    grid-column: 3/5; 
-    background-color:#57A0D3;
-  }
-  ul .chart-li-four {
-    grid-column: 3/9; 
-    background-color:#0E4D92;
-  }
-  ul .chart-li-five {
-    grid-column: 7/10; 
-    background-color:#4F97A3;
-  }
-  ul .chart-li-six {
-    grid-column: 10/12; 
-    background-color:#73C2FB;
-  }
-  ul .chart-li-seven {
-    grid-column: 12/12; 
-    background-color:#0080FF;
-  }
+
+li {
+  font-weight: 450;
+      text-align: left;
+      font-size: 15px;
+      min-height: 15px;
+      background-color: #708090;
+      padding: 5px 15px;
+      color: #fff;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      border-radius: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 35px; 
+  color: #191970;
+}
+ul .chart-li-one {
+  grid-column: 1/2; 
+  background-color:#588BAE;
+}
+
+ul .chart-li-two-a {
+  grid-column: 2/2; 
+  background-color: #0080FF;
+}
+
+ul .chart-li-two-b {
+  grid-column: 2/4; 
+  background-color:#4682B4;
+} 
+
+ul .chart-li-three {
+  grid-column: 3/5; 
+  background-color:#57A0D3;
+}
+
+ul .chart-li-four {
+  grid-column: 3/9; 
+  background-color:#0E4D92;
+}
+
+ul .chart-li-five {
+  grid-column: 7/10; 
+  background-color:#4F97A3;
+}
+
+ul .chart-li-six {
+  grid-column: 10/12; 
+  background-color:#73C2FB;
+}
+
+ul .chart-li-seven {
+  grid-column: 12/12; 
+  background-color:#0080FF;
+}
