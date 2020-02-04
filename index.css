@@ -38,6 +38,10 @@
   position: absolute;  
   height: 100%;  
   width: 100%;  
-  background-color: black;  
+  background-color: transparent;  
   grid-template-columns: 50px repeat(12, 1fr);
+}
+
+.chart-lines span {  
+  display: block;  border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
